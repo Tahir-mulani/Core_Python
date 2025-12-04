@@ -12,3 +12,4 @@ account = BankAccount(1000)
 account.deposit(500)
 print("Balance:", account.get_balance())
 # print(account.__balance)  # ❌ Will give error (private)
+    
